@@ -1,4 +1,8 @@
 # Startup Analyzer
+https://excalidraw.com/#json=DYEjXDkOLU8NjVi_SV7X-,81GStAy_wDwOlchGgAMH_A
+[Uploading Startup Analyzer Design.excalidraw…]()
+<img width="1197" alt="Startup Analyzer Design" src="https://github.com/user-attachments/assets/5ed63a01-f5e0-4d52-8cac-667d25abfa79" />
+
 
 A practical tool that helps evaluate startup ideas by gathering insights from different business perspectives.
 
