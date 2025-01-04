@@ -1,56 +1,68 @@
 # Startup Analyzer
 
-A Google Colab-based system for comprehensive startup idea analysis using expert agents.
+A practical tool that helps evaluate startup ideas by gathering insights from different business perspectives.
 
-## Overview
+## What it Does
 
-This project provides a structured approach to analyzing startup ideas across multiple dimensions using Google Colab. The analysis covers market potential, technical feasibility, financial viability, and legal compliance through specialized expert agents.
+This tool breaks down startup idea analysis into three clear steps:
 
-## Getting Started
+1. Expert Reviews
+   - Market research: Size, trends, and competition
+   - Tech review: Development needs and timeline
+   - Financial check: Costs, revenue, and projections
+   - Legal review: Regulations and compliance needs
 
-1. Open the notebook in Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+2. Combined Analysis
+   - Experts review each other's findings
+   - Identify overlapping concerns
+   - Spot potential issues early
+   - Refine recommendations
 
-2. Set up your API keys in Colab:
-   - Get your Gemini API key
-   - Get your OpenAI API key
-   - Add them to Colab using the secrets manager
+3. Final Report
+   - Clear yes/no recommendation
+   - Confidence rating
+   - Key points to consider
+   - Next steps to take
 
-3. Run the notebook cells in order
+## Setup
 
-## Features
+1. Open in Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
-- Multi-dimensional startup analysis
-- Expert agent evaluation system
-- Confidence scoring
-- Detailed recommendations and concerns
-- Cross-analysis synthesis
+2. Add your API keys in Colab:
+   - Gemini API key
+   - OpenAI API key
 
-## Requirements
+3. Run the notebook
 
-The notebook requires the following packages:
-- pydantic-ai
-- pydantic
-- nest_asyncio
+## How to Use
 
-These are automatically installed in the notebook.
-
-## Usage
-
-1. Define your startup idea details in the provided format:
+1. Fill in your startup details:
 ```python
 idea_details = {
     "name": "Your Startup Name",
-    "description": "Brief description",
-    "target_market": "Target audience",
-    "initial_investment": amount,
-    "timeline": "Expected timeline",
-    "revenue_model": "Revenue strategy"
+    "description": "What your startup does",
+    "target_market": "Who you're selling to",
+    "initial_investment": 500000,  # Amount needed
+    "timeline": "12 months",  # Development time
+    "revenue_model": "How you'll make money"
 }
 ```
 
-2. Run the analysis cells
+2. Run the analysis
 
-3. Review the detailed output from each expert agent and final recommendation
+3. Get your results:
+   - Market opportunities and risks
+   - Technical requirements
+   - Financial projections
+   - Legal considerations
+   - Clear next steps
+
+## Requirements
+
+You'll need these packages (installed automatically):
+- pydantic-ai
+- pydantic
+- nest_asyncio
 
 ## License
 
