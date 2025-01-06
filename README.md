@@ -68,6 +68,10 @@ You'll need these packages (installed automatically):
 - pydantic
 - nest_asyncio
 
+# NOTE:
+You can use any model you prefer by simply changing the `llm` setting. For more information, please refer to the [Pydantic-AI documentation](https://example-link-to-docs).
+
 ## License
 
 MIT License
+
